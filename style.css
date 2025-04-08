@@ -203,3 +203,15 @@ footer .social-media a {
 footer .social-media a:hover {
     text-decoration: underline;
 }
+/* Center the image and make it smaller */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fresh-salad img {
+    width: 300px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 8px; /* Optional, adds rounded corners */
+}
